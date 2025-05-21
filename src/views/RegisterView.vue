@@ -11,9 +11,8 @@
         <div class="bg-white text-black p-6 flex flex-col items-start space-y-2">
             <input id="email" class="w-full border border-slate-300 p-4 text-md" type="email" placeholder="email" name="">
             <input class="w-full border border-slate-300 p-4 text-md" type="password" name="" placeholder="contraseña">
-            <button @click="register" class="bg-[#38b6ff] text-black px-4 py-2 w-full text-lg hover:bg-[#ff8038] transition-all">Registrarse</button>
+            <button @click="register" class="bg-[#38b6ff] text-black px-4 py-2 w-full text-lg hover:bg-[#ff8038] transition-all" to="/dashboard">Registrarse</button>
             <!--<p v-if="error" class="text-red-500 p-3 bg-red-100 w-full">Error: {{ error }}</p>-->
-
         </div>
     </div>
 </template>
